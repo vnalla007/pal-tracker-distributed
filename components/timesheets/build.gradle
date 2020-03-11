@@ -1,7 +1,7 @@
 dependencies {
     compile project(":components:rest-support")
     compile "org.springframework:spring-jdbc:$springVersion"
-    compile "io.github.resilience4j:resilience4j-spring-boot2:1.2.0"
+    compile "com.netflix.hystrix:hystrix-javanica:1.5.18"
 
 
     testCompile project(":components:test-support")
