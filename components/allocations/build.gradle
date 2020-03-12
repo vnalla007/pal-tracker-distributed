@@ -4,4 +4,5 @@ dependencies {
     compile "com.netflix.hystrix:hystrix-javanica:1.5.18"
 
     testCompile project(":components:test-support")
+
 }
