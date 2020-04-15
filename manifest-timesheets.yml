@@ -2,7 +2,7 @@ applications:
 - name: tracker-timesheets
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   routes:
-  - route: timesheets-pal-pal-tracker-venkata-excellent-sitatunga-mg.cfapps.io
+  - route: timesheets-pal-tracker-venkatanallago-mg.cfapps.io
   memory: 1G
   instances: 1
   env:
